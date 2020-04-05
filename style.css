@@ -1,0 +1,29 @@
+.firstCSS {
+  border: 100px solid rgb(40, 235, 73);
+  margin: 100px;
+}
+
+.divine {
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid rgb(255, 0, 255);
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  font: bold 1rem calibri;
+  margin: 2rem;
+  text-align: center;
+}
+#button1{
+  width: 300px;
+  height: 40px;
+}
+#button2{
+  width: 300px;
+  height: 40px;
+}
+#button3{
+  width: 300px;
+  height: 40px;
+}
+#container{
+  text-align: center;
+}
