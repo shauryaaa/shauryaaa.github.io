@@ -1,0 +1,179 @@
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        body {
+            background-image: repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
+        }
+        
+        .box {
+            height: 870px;
+            width: 1000px;
+            margin: auto;
+            background-color: rgb(0, 0, 0);
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            box-shadow: 0 0 20px rgb(255, 154, 154);
+            border: 1px rgb(255, 255, 255) solid;
+        }
+        
+        .image {
+            border-radius: 180px;
+            -webkit-border-radius: 180px;
+            -moz-border-radius: 180px;
+            -ms-border-radius: 180px;
+            -o-border-radius: 180px;
+            margin-left: 20px;
+            margin-top: 14px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-top: -130px;
+            color: rgb(255, 0, 200);
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        hr {
+            margin-right: 20px;
+            margin-top: -20px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+
+        }
+        
+        .contact-info-header {
+            margin-top: 2cm;
+            font-size: 30px;
+            color: rgb(255, 0, 128);
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+        
+        .contact-info-data {
+            font-size: 15px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+            margin-top: -47px;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .skills-header {
+            font-size: 30px;
+            color: rgb(255, 0, 128);
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            margin-top: -7px;
+            text-align: center;
+        }
+        
+        .skills-data {
+            font-size: 15px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+            margin-top: -18px;
+            text-align: center;
+        }
+        
+        .edu-headrer {
+            font-size: 30px;
+            color: rgb(255, 0, 128);
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            margin-top: -7px;
+            text-align: center;
+        }
+        
+        .edu-data {
+            font-size: 15px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+            margin-top: -70px;
+            text-align: center;
+        }
+        
+        a {
+            color: rgb(0, 255, 191);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: transparent;
+            color: rgb(255, 0, 98);
+        }
+        
+        .about-header {
+            font-size: 30px;
+            color: rgb(255, 0, 128);
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            margin-top: -7px;
+            text-align: center;
+        }
+        
+        .about-data {
+            font-size: 15px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+            margin-top: -66px;
+            text-align: center;
+        }
+        
+        .proj-links-header {
+            font-size: 30px;
+            color: rgb(255, 0, 128);
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            margin-top: -7px;
+            text-align: center;
+        }
+        
+        .proj-links-data {
+            font-size: 15px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+            margin-top: -68px;
+            text-align: center;
+        }
+        
+        .hobbies-header {
+            font-size: 30px;
+            color: rgb(255, 0, 128);
+            margin-left: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+            margin-top: -7px;
+            text-align: center;
+        }
+        
+        .hobbies-data {
+            font-size: 15px;
+            margin-left: 20px;
+            color: rgb(255, 255, 255);
+            font-weight: 300;
+            margin-top: -66px;
+            text-align: center;
+        }
+        
+        .mail {
+            color: rgb(255, 255, 255);
+        }
+        
