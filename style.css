@@ -3,19 +3,20 @@
         }
         
         body {
-            background-image: repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
+            /*background-image: repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
             background:  repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
-            background:  repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));; /* Safari 5.1+, Chrome 10+ */
-            background: -o-linear-gradient(black, white); /* Opera 11.10 */
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff'); /* IE6 & IE7 */
-            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; /* IE8+ */
+            background:  repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));; 
+            background: -o-linear-gradient(black, white); 
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff'); 
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; */
+            background-image : url('hello.jpg');
         }
         
         .box {
             height: 870px;
             width: 1000px;
             margin: auto;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
             margin-top: 15px;
             margin-bottom: 20px;
             border-radius: 20px;
@@ -40,34 +41,35 @@
         .header {
             text-align: center;
             margin-top: -130px;
-            color: rgb(255, 0, 200);
+            color: #FF4269;
             font-size: 30px;
-            font-family: cursive, Helvetica, sans-serif;
-            font-weight: italic;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
         }
         
         hr {
             margin-right: 20px;
             margin-top: -20px;
             margin-left: 20px;
-            color: rgb(255, 255, 255);
+            color: #FF4269;
 
         }
         
         .contact-info-header {
             margin-top: 3cm;
             font-size: 30px;
-            color: rgb(255, 0, 128);
+            color:  #A5CF11;
             margin-left: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 300;
             text-align: center;
+            font-weight: bold;
         }
         
         .contact-info-data {
             font-size: 15px;
             margin-left: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-weight: 300;
             margin-top: -47px;
             text-decoration: none;
@@ -76,18 +78,19 @@
         
         .skills-header {
             font-size: 30px;
-            color: rgb(255, 0, 128);
+            color:  #A5CF11;
             margin-left: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 300;
             margin-top: 20px;
             text-align: center;
+            font-weight: bold;
         }
         
         .skills-data {
             font-size: 15px;
             margin-left: 20px;
-            color: rgb(255, 255, 2575);
+            color: rgb(0, 0, 0);
             font-weight: 300;
             margin-top: -18px;
             text-align: center;
@@ -95,47 +98,49 @@
         
         .edu-headrer {
             font-size: 30px;
-            color: rgb(255, 0, 128);
+            color: #A5CF11;
             margin-left: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 300;
             margin-top: 20px;
             text-align: center;
+            font-weight: bold;
         }
         
         .edu-data {
             font-size: 15px;
             margin-left: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-weight: 300;
             margin-top: -70px;
             text-align: center;
         }
         
         a {
-            color: rgb(0, 255, 191);
+            color:  #A5CF11;
             text-decoration: none;
         }
         
         a:hover {
             background-color: transparent;
-            color: rgb(255, 0, 0);
+            color: #D5F467;
         }
         
         .about-header {
             font-size: 30px;
-            color: rgb(255, 0, 128);
+            color: #A5CF11;
             margin-left: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 300;
             margin-top: 20px;
             text-align: center;
+            font-weight: bold;
         }
         
         .about-data {
             font-size: 15px;
             margin-left: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-weight: 300;
             margin-top: -66px;
             text-align: center;
@@ -149,12 +154,13 @@
             font-weight: 300;
             margin-top: 20px;
             text-align: center;
+            
         }
         
         .proj-links-data {
             font-size: 15px;
             margin-left: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-weight: 300;
             margin-top: -68px;
             text-align: center;
@@ -162,25 +168,26 @@
         
         .hobbies-header {
             font-size: 30px;
-            color: rgb(255, 0, 128);
+            color: #A5CF11;
             margin-left: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 300;
             margin-top: 20px;
             text-align: center;
+            font-weight: bold;
         }
         
         .hobbies-data {
             font-size: 15px;
             margin-left: 20px;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             font-weight: 300;
             margin-top: -66px;
             text-align: center;
         }
         
         .mail {
-            color: rgb(255, 255, 255);
+            color: rgb(226, 4, 171);
         }
         /* Make sure that padding behaves as expected */
         * {box-sizing:border-box; text-align: center}
