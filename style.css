@@ -4,6 +4,11 @@
         
         body {
             background-image: repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
+            background:  repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
+            background:  repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));; /* Safari 5.1+, Chrome 10+ */
+            background: -o-linear-gradient(black, white); /* Opera 11.10 */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff'); /* IE6 & IE7 */
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; /* IE8+ */
         }
         
         .box {
