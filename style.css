@@ -195,7 +195,7 @@
                 text-align: center;
                 }
                 .html {
-                        width: 90%;
+                        width: 80%;
                         background-color: rgb(220, 43, 255); /* Green */
                         font-size: 15px;
                         margin-left: 20px;
@@ -204,7 +204,7 @@
                         
                         text-align: center;}
                  .css {
-                            width: 65%;
+                            width: 40%;
                                 background-color: #49fff6; /* Green */
                             font-size: 15px;
                             margin-left: 20px;
@@ -213,7 +213,7 @@
                            
                             text-align: center;}
                 .js {
-                                width: 65%; background-color: #cbf436; /* Green */
+                                width: 75%; background-color: #cbf436; /* Green */
                                 font-size: 15px;
                                 margin-left: 20px;
                                 color: rgb(0, 0, 0);
@@ -221,7 +221,7 @@
                               
                                 text-align: center;}
                 .php{
-                                    width: 60%; background-color: #0fff6b; /* Green */
+                                    width: 30%; background-color: #0fff6b; /* Green */
                                     font-size: 15px;
                                     margin-left: 20px;
                                     color: rgb(0, 0, 0);
