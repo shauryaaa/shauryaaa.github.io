@@ -246,7 +246,7 @@
                 height: 100%;
             }
             body {
-                background-image : url('im.jpeg');
+                background-image : url('hello.jpg');
             }
             .header {
                 margin-right: -160px;
@@ -257,7 +257,7 @@
                     height: 100%;
                 }
                 body {
-                    background-image : url('im.jpeg');
+                    background-image : url('hello.jpg');
                 }
                 .header {
                     margin-right: -160px;
