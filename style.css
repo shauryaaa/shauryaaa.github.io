@@ -246,7 +246,7 @@
                 height: 100%;
             }
             body {
-                background-image: repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42))
+                background-image : url('hello.jpg');
             }
             .header {
                 margin-right: -160px;
@@ -257,7 +257,7 @@
                     height: 100%;
                 }
                 body {
-                    background-image: repeating-linear-gradient(50deg, rgb(77, 245, 245), rgb(255, 241, 42));
+                    background-image : url('hello.jpg');
                 }
                 .header {
                     margin-right: -160px;
