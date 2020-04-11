@@ -244,7 +244,11 @@
                                         display: block;
                                         margin-left: auto;
                                         margin-right: 1px;
-                                        width: 1000px;
+                                        position: absolute;/*March*/
+                                        top:50%;/*Marchingspy's changes. Easier to debug*/
+                                        left:50%;/*March. Remove if no problems found*/
+                                        transform: translate(-50%,-50%);/*March*/
+                                        width:auto;/*March*/
                                       }
                                       .aligncenter {
                                         text-align: center;
