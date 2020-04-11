@@ -8,14 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">
+     $(function() {
+    $('.map').maphilight();
+  });
+</script>
 </head>
-
-<img src="homepage.jpg" usemap="#image-map">
-
-<map name="image-map">
+<div class = "center">
+<div>
+    <div class="imginfo"></div>
+<img src="homepage.jpg" usemap="#image-map" class = "map" >
+    <map name="image-map">
     <area target="" alt="Contact Us" title="Contact Us" href="contact.html" coords="50,250,118,328" shape="rect">
     <area target="" alt="Education" title="Education" href="edu.html" coords="403,288,54" shape="circle">
     <area target="" alt="Hobbies" title="Hobbies" href="hobbies.html" coords="401,554,51" shape="circle">
     <area target="" alt="skills" title="skills" href="skills.html" coords="246,663,53" shape="circle">
     <area target="" alt="about" title="about" href="about.html" coords="89,554,53" shape="circle">
-</map>
+    </map>
+</div>
+</div>
